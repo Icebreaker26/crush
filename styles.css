@@ -1,0 +1,33 @@
+body{
+
+background-color: blue;
+font-family: 'Lobster', cursive;
+
+}
+
+h1{
+
+text-align: center;
+color: white;
+
+
+}
+
+#caja1{
+
+width: 80%;
+margin: 0 auto;
+margin-top: 20%;
+}
+
+#cajanombre{
+
+width: 80%;
+
+}
+
+#enviar{
+
+width: 17%;
+
+}
