@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
-    
+
         <meta name="viewport" content="width=device-width" user-scalable="no"/>
 
 
@@ -25,9 +25,11 @@
 </div>
 
 <div id="caja1">
-
-<input id="cajanombre" type="text" name="cajanombre" placeholder="Tu nombre aqui!...">
+<form id="formulario">
+<input id="cajanombre" type="text" name="cajanombre" placeholder="Tu nombre aqui!..." onsubmit="nombre()"required>
 <button id="enviar"type="button" name="button" onclick="nombre()">Enviar</button>
+</form>
+
 </div>
 <p id="parrafo"></p>
 
