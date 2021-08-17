@@ -1,8 +1,10 @@
 body{
 
-background-color: blue;
-font-family: 'Lobster', cursive;
+  background: #5433FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    font-family: 'RocknRoll One', sans-serif;
 }
 
 h1{
@@ -13,11 +15,19 @@ color: white;
 
 }
 
+#titulo{
+
+margin-top: 20%;
+
+}
+
+@media(min-width:768px){
+
 #caja1{
 
 width: 80%;
 margin: 0 auto;
-margin-top: 20%;
+margin-top:;
 }
 
 #cajanombre{
@@ -30,4 +40,29 @@ width: 80%;
 
 width: 17%;
 
+}
+}
+
+@media(max-width:768px){
+
+#caja1{
+
+width: 80%;
+margin: 0 auto;
+text-align: center;
+}
+
+#cajanombre{
+
+width: 98%;
+
+}
+
+#enviar{
+
+
+width: 100%;
+margin-top: 5%;
+margin-left: 5px;
+}
 }
